@@ -10,14 +10,14 @@ int main() {
 
     printf("Carta 1:\n");
     printf("Uma letra de 'A' a 'H' (representando um dos oito estados)\n");
-    scanf(" %c", &estado);  // Corrigido: espaço antes de %c
+    scanf(" %c", &estado);  
 
     printf("A letra do estado seguida de um número de 01 a 04 (ex: A01, B03)\n");
     scanf("%s", cod_carta);
 
     printf("O nome da cidade\n");
-    getchar();  // Limpa o buffer de entrada
-    fgets(cidade, sizeof(cidade), stdin);  // Corrigido: lê a cidade com espaços
+    getchar();  
+    fgets(cidade, sizeof(cidade), stdin);  
 
     printf("População\n");
     scanf("%d", &populacao);
@@ -39,14 +39,14 @@ int main() {
 
     printf("Carta 2:\n");
     printf("Uma letra de 'A' a 'H' (representando um dos oito estados)\n");
-    scanf(" %c", &estado2);  // Corrigido: espaço antes de %c
+    scanf(" %c", &estado2); 
 
     printf("A letra do estado seguida de um número de 01 a 04 (ex: A01, B03)\n");
     scanf("%s", cod_carta2);
 
     printf("O nome da cidade\n");
-    getchar();  // Limpa o buffer de entrada
-    fgets(cidade, sizeof(cidade2), stdin);  // Corrigido: lê a cidade com espaços
+    getchar();  
+    fgets(cidade, sizeof(cidade2), stdin);  
 
     printf("População\n");
     scanf("%d", &populacao2);
